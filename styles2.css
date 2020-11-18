@@ -1,3 +1,7 @@
+:root {
+  --footer: #2f303a;
+}
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -100,5 +104,5 @@ ul {
   font-style: normal;
 }
 #footer {
-  background-color: var(--footer);
+  background-color: #2f303a;
 }
