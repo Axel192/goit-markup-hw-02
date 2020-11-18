@@ -105,10 +105,16 @@ ul {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
 }
 
 .addres a {
   color: #757575;
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
+}
+
+#now-here {
+  color: #2196f3;
 }

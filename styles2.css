@@ -61,7 +61,7 @@ ul {
   font-size: 16px;
 }
 
-.buttons button:active {
+.buttons button:focus {
   background: #2196f3;
   color: white;
   text-decoration: none;
@@ -90,13 +90,15 @@ ul {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
 }
 
 .addres a {
   color: #757575;
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
 }
 #footer {
-  background-color: #2f303a;
+  background-color: var(--footer);
 }
