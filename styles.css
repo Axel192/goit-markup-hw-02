@@ -1,3 +1,12 @@
+:root {
+  --black: #000000;
+  --blue: #2196f3;
+  --grey: #757575;
+  --background: #2f303a;
+  --white: #ffffff;
+  --text: #212121;
+}
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -5,36 +14,36 @@ a {
   text-decoration: none;
 }
 .web {
-  color: #2196f3;
+  color: var(--blue);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 
 .studio {
-  color: #000000;
+  color: var(--black);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 
 .navigate a {
-  color: #212121;
+  color: var(--text);
   font-weight: 500;
   font-size: 14px;
 }
 .navigate a:hover {
-  color: #2196f3;
+  color: var(--blue);
   font-weight: 500;
   font-size: 14px;
 }
 
 .contact a {
-  color: #757575;
+  color: var(--grey);
   font-weight: 500;
   font-size: 14px;
 }
 
 .contact a:hover {
-  color: #2196f3;
+  color: var(--blue);
   font-weight: 500;
   font-size: 14px;
 }
@@ -44,18 +53,18 @@ ul {
 }
 
 .hero {
-  background: #2f303a;
+  background: var(--background);
 }
 
 .hero h1 {
   font-size: 44px;
-  color: white;
+  color: var(--white);
   font-weight: 900;
 }
 
 .button3 {
-  background: #2196f3;
-  color: white;
+  background: var(--blue);
+  color: var(--white);
   text-decoration: none;
   border: none;
   font-weight: 700;
@@ -64,57 +73,57 @@ ul {
 .properties h3 {
   font-weight: 700;
   font-size: 14px;
-  color: #000000;
+  color: var(--black);
 }
 .properties p {
   font-weight: 400;
   font-size: 14px;
-  color: #757575;
+  color: var(--grey);
 }
 
 .work h2 {
   font-weight: 700;
   font-size: 36px;
-  color: #212121;
+  color: var(--text);
 }
 .our-team h2 {
   font-weight: 700;
   font-size: 36px;
-  color: #212121;
+  color: var(--text);
 }
 .our-team h3 {
   font-weight: 500;
   font-size: 16px;
-  color: #212121;
+  color: var(--text);
 }
 .our-team p {
   font-weight: 400;
   font-size: 16px;
-  color: #757575;
+  color: var(--grey);
 }
 
 .studio2 {
-  color: white;
+  color: var(--white);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 #footer {
-  background: #2f303a;
+  background: var(--background);
 }
 .addres p {
-  color: #ffffff;
+  color: var(--white);
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
 }
 
 .addres a {
-  color: #757575;
+  color: var(--grey);
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
 }
 
 #now-here {
-  color: #2196f3;
+  color: var(--blue);
 }

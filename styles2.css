@@ -1,3 +1,13 @@
+:root {
+  --black: #000000;
+  --blue: #2196f3;
+  --grey: #757575;
+  --footer: #2f303a;
+  --white: #ffffff;
+  --button-background: #f5f4fa;
+  --button-text: #212121;
+}
+
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -8,13 +18,13 @@ h1 {
 }
 
 .web {
-  color: #2196f3;
+  color: var(--blue);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 
 .studio {
-  color: #000000;
+  color: var(--black);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
@@ -24,16 +34,16 @@ a {
 }
 
 .navigat a {
-  color: #000000;
+  color: var(--black);
   font-weight: 500;
   font-size: 14px;
 }
 .navigat a:hover {
-  color: #2196f3;
+  color: var(--blue);
   font-size: 14px;
 }
 #now-here {
-  color: #2196f3;
+  color: var(--blue);
   font-weight: 500;
   font-size: 14px;
 }
@@ -43,17 +53,17 @@ ul {
 }
 
 .contact a {
-  color: #757575;
+  color: var(--grey);
   font-weight: 500;
   font-size: 14px;
 }
 .contact a:hover {
-  color: #2196f3;
+  color: var(--blue);
   font-size: 14px;
 }
 
 .buttons button {
-  background: #f5f4fa;
+  background: var(--button-background);
   color: #212121;
   text-decoration: none;
   border: none;
@@ -62,43 +72,51 @@ ul {
 }
 
 .buttons button:focus {
-  background: #2196f3;
-  color: white;
+  background: var(--blue);
+  color: var(--white);
+  text-decoration: none;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+.buttons button:hover {
+  background: var(--blue);
+  color: var(--white);
   text-decoration: none;
   border: none;
   font-weight: 500;
   font-size: 16px;
 }
 .examples h2 {
-  color: #212121;
+  color: var(--button-text);
   font-weight: 700;
   font-size: 18px;
 }
 .examples p {
-  color: #757575;
+  color: var(--grey);
   font-weight: 400;
   font-size: 16px;
 }
 
 .studio2 {
-  color: white;
+  color: var(--white);
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
 }
 
 .addres p {
-  color: #ffffff;
+  color: var(--white);
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
 }
 
 .addres a {
-  color: #757575;
+  color: var(--grey);
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
 }
 #footer {
-  background-color: #2f303a;
+  background-color: var(--footer);
 }
